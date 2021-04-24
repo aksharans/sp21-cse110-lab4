@@ -32,21 +32,29 @@
     E. student.courseLoad[0] 
 
 13.  
-    A. a
-    B. a
-    C. a
-    D. a
-    E. a 
-    F. a 
-    G. a
+    A. '32', integer 2 maps to its exact string representation '2', and the strings are concatenated since + merges strings if any of the operands is a string.     
+    B. 1, string '3' maps to its integer representation 3, and subtraction occurs, since - only works with numbers and converts operands to numbers.    
+    C. 3, null becomes the integer 0, and addition occurs.    
+    D. 3null, null becomes a string 'null', and the strings are concatenated, since + merges strings if any of the operands is a string.       
+    E. 4, true becomes the integer 1, and addition occurs.  
+    F. 0, false and null both become the integer 0, and addition occurs.
+    G. 3undefined, undefined maps to its string representation 'undefined', and the strings are concatenated.
+    H. NaN, undefined is mapped to NaN, and returns NaN, since  - only works with numbers and converts operands to numbers.  
 
 14.  
-    A. a
-    B. a
-    C. a
-    D. a
-    E. a 
-    F. a 
-    G. a
+    A. true, JS converts the value '2' into its number representation for the > operator.   
+    B. false, comparing 2 strings compares them lexigraphically and 1 occurs before 2.  
+    C. true, JS converts the value '2' into its number representation for the == operator.
+    D. false, === checks value and type, and a string '2' is a different type than integer 2.
+    E. false, JS convets the value true into a number 1 and string '2' into a number 2, and those aren't equal.
+    F. true, === checks value and type, and both are booleans, and also, Boolean of anything other than empty values evaluates to true. 
 
-15. 
+15. The == equality checks if two values are equal with type conversion, while the === strict eqaulity checks if two values are equal without type conversion. So, == converts values and checks if they are equal (i.e '2' == 2 is true), but if you use the strict equality, it checks if the 2 values are equal and of the same type (i.e. '2 === 2 is false).   
+
+
+
+16. a
+
+17. a
+18. a
+19. a
