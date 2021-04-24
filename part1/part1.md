@@ -53,8 +53,14 @@
 
 
 
-16. a
+16. [JS 16](./part1b-question16.js)
 
-17. a
-18. a
-19. a
+17. [2, 4, 6], modifyArray is called and is given the array [1,2,3] and the callback function doSomething as parameters. In modifyArray, a const newArr is created and then the for loop iterates through the parameter array. At every iteration, the callback function is called on array[i]. So, array[i] is passed to the callback function, and the function returns that number times 2. Thus, the original arr[i]*2 is the value that is pushed to newArr. newArr iterates through 1,2,3 so mutliplied by two is 2,4,6. At the end, the newArr is returned.   
+
+18. [JS 18](./part1b-question18.js)  
+
+19.     
+    1  
+    4  
+    3  
+    2  
